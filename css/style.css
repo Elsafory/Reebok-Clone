@@ -1,0 +1,849 @@
+@import url(../css/bootstrap.min.css);
+@import url("https://fonts.cdnfonts.com/css/neue-plak");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url(../css/owl.carousel.min.css);
+@import url(../css/owl.theme.default.min.css);
+@import url(../font/stylesheet.css);
+@import url(../font/NeuePlakText-Black.ttf);
+@import url(../font/NeuePlakText-Bold.ttf);
+@import url(../font/NeuePlakText-Light.ttf);
+@import url(../font/NeuePlakText-SemiBold.ttf);
+@import url(../font/NeuePlakText-Thin.ttf);
+:root{
+    --primary-color: #a2c5b3;
+    --primary-color: #a2c5b3;
+    --primary-color: #a2c5b3;
+}
+body{
+    /* font-family: 'Neue Plak Text'; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+*,::after,::before{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+input::placeholder{
+    font: inherit;
+}
+/* start header */
+.header{
+    transition: all .5s ;
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 10%);
+    background-color: #ffffff;
+}
+.head-offer{
+    background-color: #244496;
+    padding-bottom: 8px;
+}
+.head-offer .offer a{
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 20px;
+    text-decoration: none;
+    transition: all ; 
+}
+.head-offer .offer a:hover{
+    text-decoration: underline;
+}
+.bar{
+    padding-bottom: 10px;
+}
+.bar .blog-bar{
+    width: 90%;
+    margin: auto;
+}
+.bar .blog-bar ul>li>a{
+    font-size: 12px;
+    color: #000000;
+    padding: 0 10px;
+    height: 100%;
+    text-decoration: none;
+}
+.bar .blog-bar ul>li:hover {
+    background-color: #e9ecef;
+}
+.nav-reebok{
+    padding-bottom: 14px;
+}
+.nav-reebok .reebok-items{
+    width: 90%;
+    margin: auto;
+}
+.nav-reebok .reebok-items .quick-links ul>li>a{
+    font-size: 14px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-reebok .reebok-items .quick-links ul>li>a:hover{
+    border-bottom: #000000 1px solid;
+}
+.nav-reebok .reebok-items .search form{
+    position: relative;
+}
+.nav-reebok .reebok-items .search input{
+    border: none;
+    width: 80%;
+    float: right;
+    border-bottom: 1px solid #000000;
+}
+.nav-reebok .reebok-items .search button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    right: 0;
+}
+.nav-reebok .reebok-items .search input:focus{
+    outline: none;
+}
+.nav-reebok .reebok-items .search button>i {
+    font-size: 20px;
+}
+.nav-reebok .reebok-items .search i {
+    font-size: 20px;
+    cursor: pointer;
+}
+/* .nav-reebok .reebok-items .women{
+    position: relative;
+} */
+.nav-reebok .reebok-items .list{
+    position: absolute;
+    background-color: #fff;
+    padding: 20px 0;
+    left: 0;
+    right: 0;
+    content: "";
+    visibility: hidden;
+}
+.nav-reebok .reebok-items .women:hover .list{
+    visibility: visible;
+}
+.nav-reebok .reebok-items  .men:hover .list{
+    visibility: visible;
+}
+.nav-reebok .reebok-items  .kids:hover .list{
+    visibility: visible;
+}
+.nav-reebok .reebok-items  .unisex:hover .list{
+    visibility: visible;
+}
+.nav-reebok .reebok-items  .gift:hover .list{
+    visibility: visible;
+}
+.nav-reebok .reebok-items .list h3 > a{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.nav-reebok .reebok-items .list li{
+    padding: 3px 0;
+}
+.nav-reebok .reebok-items .list ul>li>a{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/* end header */
+/* srart section 1 */
+.rim-rattlink{
+    padding-top: 130px;
+}
+.rim-rattlink .rim{
+    background-image: url(../img/22FW_Holiday-EA_BF_FD_Masthead-Large_HP_DT_tcm274-960116.webp);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.rim-rattlink .rim .rim-contant{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.rim-rattlink .rim .rim-contant img{
+    width: 45%;
+}
+.rim-rattlink .rim .rim-contant a{
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.rim-rattlink .rim .rim-contant a:hover {
+    color: #000;
+    background-color: #fff;
+}
+.rim-rattlink .rim .rim-contant h2{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.rim-rattlink .rim .rim-contant p{
+    font-size: 18px;
+    color: #ffffff;
+}
+.rim-rattlink .rim .rim-contant button{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    height: 44px;
+    display: block;
+    padding: 0 15px;
+    border: none;
+}
+/* end section 1 */
+/* start section 2 */
+.w-35{
+    width: 35%!important;
+}
+.sale .family-sale{
+    background-image: url(../img/22FW_Eames-Fiberglass-Classic-Leather_Masthead-Large_HP_DT_tcm274-966814.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.sale .family-sale .sale-contant{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.sale .family-sale .sale-contant img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.sale .family-sale .sale-contant h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sale .family-sale .sale-contant p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sale .family-sale .sale-contant p>strong{
+    font-weight: 700;
+}
+.sale .family-sale .sale-contant button{
+    color: #000;
+    background-color: #fff;
+    height: 44px;
+    font-weight: 700;
+    padding: 0 15px;
+    margin: 15px 0;
+    font-size: 14px;
+    border: none;
+}
+.sale .family-sale .sale-contant button:hover{
+    background-color:   #244496;
+}
+/* end section 2 */
+/* start section 3 */
+.popular-now{
+    padding: 10px 0 50px 0;
+}
+.popular-now .popular{
+    width: 80%;
+    margin: auto;
+}
+.popular-now .popular h2 {
+    color: #000000;
+    font-size: 30px;
+}
+.popular-now .popular .item{
+    padding: 0 8px;
+}
+.popular-now .popular .item a{
+   color: #000000;
+   font-size: 14px;
+   font-weight: 700;
+   margin-top: 20px;
+   display: inline-block;
+}
+.popular-now .popular .item a:hover{
+    color: #ffffff;
+    background-color: #000000;
+    text-decoration: none;
+}
+/* end section 3 */
+/* start section 4 */
+.new-arrival{
+    padding: 50px 0;
+}
+.new-arrival .arrival{
+    max-width: 80%;
+    margin: auto;
+}
+.new-arrival .arrival a{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.new-arrival .arrival .item .overlay{
+    position: relative;
+}
+.new-arrival .arrival .old{
+    color: #767677;
+    text-decoration: line-through;
+}
+.new-arrival .arrival .new{
+    color: #e41d1b;
+}
+.new-arrival .arrival p {
+    color: #000000;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 8px 0 8px 5px;
+}
+.new-arrival .arrival p>span {
+    padding-bottom: 20px;
+    font-weight: 500;
+    display: block;
+}
+.new-arrival .arrival h5 {
+    color: #767677;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.new-arrival .arrival .item .overlay i{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #000;
+    font-size: 20px;
+}
+.new-arrival .arrival .item .overlay span{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    left: 5px;
+    text-align: center;
+    transition: all .2s ease-in;
+    padding: 0 3px;
+}
+.new-arrival .arrival .item:hover{
+    border: 1px solid #000;
+}
+.new-arrival .arrival .item:hover .overlay span{
+    bottom: 8px;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.new-arrival .arrival .owl-theme .owl-nav .disabled{
+    opacity: 0;
+}
+.new-arrival .arrival .owl-theme .owl-dots .owl-dot span{
+    width: 18px;
+    margin: 5px 4px;
+    height: 1px;
+    background-color: #767677;
+    transition: all .2s ease-in;
+    border-radius: 0;
+}
+.new-arrival .arrival .owl-theme .owl-dots .owl-dot:hover span {
+    width: 18px;
+    margin: 5px 4px;
+    height: 4px;
+    background-color: #000000;
+    border-radius: 0;
+}
+.new-arrival .arrival .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #000000!important;
+    width: 18px;
+    height: 4px;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-next{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-next:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-next i{
+    font-size: 25px;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-prev{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-prev:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.new-arrival .arrival .owl-carousel .owl-nav button.owl-prev i{
+    font-size: 20px;
+}
+/* end section 4 */
+/* start section 5 */
+.spirint {
+    padding: 50px 0;
+}
+.spirint .gift {
+    max-width: 80%;
+    margin: auto;
+}
+.spirint .gift h2{
+    color: #000;
+    font-size: 40px;
+}
+.spirint .gift span>strong{
+    color: #000000;
+    font-size: 14px;
+    padding:  10px 0 5px 0;
+    display: block;
+}
+.spirint .gift p{
+    color: #000000;
+    font-size: 14px;
+}
+.spirint .gift a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 40%;
+    right: -15px;
+    border: 1px solid #e9ecef;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 40%;
+    left: -15px;
+    border: 1px solid #e9ecef;
+}
+.spirint .gift .owl-theme .owl-nav .disabled{
+    opacity: 0;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-next{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-next:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-next i{
+    font-size: 25px;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-prev{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-prev:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.spirint .gift .owl-carousel .owl-nav button.owl-prev i{
+    font-size: 20px;
+}
+/* end section 5 */
+/* start section 6 */
+.keep-fresh {
+    padding: 50px 0;
+}
+.keep-fresh .keep{
+    max-width: 80%;
+    margin: auto;
+}
+.keep-fresh .keep h2{
+    color: #000000;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.keep-fresh .keep .item .overlay{
+    position: relative;
+}
+.keep-fresh .keep .old{
+    color: #767677;
+    text-decoration: line-through;
+}
+.keep-fresh .keep .new{
+    color: #e41d1b;
+}
+.keep-fresh .keep p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+}
+.keep-fresh .keep h5 {
+    color: #767677;
+    font-size: 12px;
+}
+.keep-fresh .keep .item{
+    height: 330px;
+}
+.keep-fresh .keep .item .overlay i{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #000;
+    font-size: 20px;
+}
+.keep-fresh .keep .item .overlay span{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    left: 5px;
+    text-align: center;
+    transition: all .2s ease-in;
+    padding: 0 3px;
+}
+.keep-fresh .keep .item:hover{
+    border: 1px solid #000;
+}
+.keep-fresh .keep .item:hover .overlay span{
+    bottom: 8px;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.keep-fresh .keep .owl-theme .owl-nav .disabled{
+    opacity: 0;
+}
+.keep-fresh .keep .owl-theme .owl-dots .owl-dot span{
+    width: 18px;
+    margin: 5px 4px;
+    height: 1px;
+    background-color: #767677;
+    transition: all .2s ease-in;
+    border-radius: 0;
+}
+.keep-fresh .keep .owl-theme .owl-dots .owl-dot:hover span {
+    width: 18px;
+    margin: 5px 4px;
+    height: 4px;
+    background-color: #000000;
+    border-radius: 0;
+}
+.keep-fresh .keep .owl-theme .owl-dots .owl-dot.active span {
+    background-color: #000000!important;
+    width: 18px;
+    height: 4px;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-next{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-next:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-next i{
+    font-size: 25px;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-prev{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-prev:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.keep-fresh .keep .owl-carousel .owl-nav button.owl-prev i{
+    font-size: 20px;
+}
+/* end section 6 */
+/* start section 7 */
+.featuring {
+    padding: 50px 0;
+}
+.featuring .the-best{
+    max-width: 80%;
+    margin: auto;
+}
+.featuring .the-best h4{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+}
+.featuring .the-best span{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.featuring .the-best p{
+    padding-top: 5px;
+    color: #000000;
+    font-size: 14px;
+}
+.featuring .the-best .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: relative;
+    height: 170px;
+}
+.link-a{
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+}
+.featuring .the-best a{
+    color: #000000;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all .3s;
+}
+.featuring .the-best a:hover{
+    color: #ffffff;
+    background-color: #000000;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.featuring .the-best .owl-theme .owl-nav .disabled{
+    opacity: 0;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-next{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-next:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-next i{
+    font-size: 25px;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-prev{
+    width: 60px;
+    height: 50px;
+    border-radius: 0;
+    background-color: #fff;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-prev:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+.featuring .the-best .owl-carousel .owl-nav button.owl-prev i{
+    font-size: 20px;
+}
+/* end section 7 */
+/* start section 8 */
+.friends-family .friends-sale{
+    background-image: url(../img/22FW_Loyalty-HP-Holiday_FD_Masthead-Small_DT_tcm274-958638.webp);
+    background-size: 100% 100%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.friends-family .friends-sale .sale-items{
+    width: 35%;
+}
+
+.friends-family .friends-sale .sale-items img{
+    width: 50%;
+}
+.friends-family .friends-sale .sale-items h2{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.friends-family .friends-sale .sale-items p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.friends-family .friends-sale .sale-items button{
+    color: #ffffff;
+    background-color: #000000;
+    height: 44px;
+    padding: 0 15px;
+    border: none;
+}
+.friends-family .friends-sale .sale-items button:hover{
+    background-color: #244496;
+    border: none;
+}
+/* end section  */
+/* start section  */
+.workout-pargrah{
+    padding: 50px 0;
+}
+.workout-pargrah .workout p{
+    margin: 0;
+    color: #000000;
+    font-size: 14px;
+}
+/* end section  */
+/* start section  */
+.join{
+    background-color: #e41d1b;
+    color: #fff;
+    padding: 40px 0;
+}
+.join .join-reebok{
+    max-width: 70%;
+    margin: auto;
+}
+.join .join-reebok h4{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+.join .join-reebok button{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #000000;
+    border: 1px solid #fff;
+    padding: 0 15px;
+    height: 44px;
+}
+/* end section  */
+/* start section  */
+.links .footer-links{
+    max-width: 70%;
+    margin: auto;
+}
+.links .footer-links h5{
+    margin: 15px 0 10px 0;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+}
+.links .footer-links ul{
+    padding: 0 ;
+    margin: 0;
+}
+.links .footer-links ul>li>a{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1.8;
+}
+.links .footer-links ul>li>a:hover {
+    border-bottom: 1px solid #000000;
+}
+/* end section  */
+/* start section  */
+.cookies{
+    background-color: #244496;
+    padding: 20px 0 ;
+}
+.cookies .cookies-bar ul{
+    margin: 0;
+}
+.cookies .cookies-bar ul>li{
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+}
+.cookies .cookies-bar ul>li>a{
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+/* end section  */
+/* start blog page */
+.blog{
+    padding-top: 120px;
+}
+.blog h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.blog img{
+    position: relative;
+    object-fit: cover;
+}
+.blog .blog-baner {
+    background-color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 42%;
+}
+/* end blog page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quary */
+@media screen  and (max-width:1200){
+    
+}
+/* media quary */
